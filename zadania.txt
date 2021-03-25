@@ -1,0 +1,24 @@
+Zadanie 1
+Zdefiniuj klasę, która sprawdza, czy dowolna liczba jest pierwsza.
+Zdefiniowana klasa powinna przewidywać dwa sposoby inicjacji danych:
+a)	za pomocą konstruktora (czy z parametrami, czy bez pozostawia się decyzji programisty)
+b)	za pomocą własności
+
+Oba sposoby należy użyć w programie tworząc na podstawie klasy dwa różne obiekty (czyli mówiąc inaczej uruchamiając program, dla dwóch różnych, dowolnie podanych przez użytkownika liczb, aby sprawdzić czy są one pierwsze)
+
+										
+Zadanie 2
+Zaprojektuj klasę, która  zaoferuje użytkownikowi możliwość obliczania wartości faktury z dowolnie wybieraną stawką VAT (możliwości 3%, 7 %, 15 %, 23 %). W charakterze danych dla wariantu podstawowego występuje liczba (sztuk, kg itp. zależnie od towaru) towaru i cena jednostkowa. Na tej podstawie obliczona jest wartość netto transakcji, wartość podatku (po wyborze stawki) oraz wartość brutto (czyli uwzględniająca podatek). Funkcja obliczająca wartość faktury powinna przewidywać także wariant odwrotny, czyli możliwość podania ceny brutto, którą ona sama podzieli na cenę netto i VAT, przy wybranej stawce VAT. Następnie należy napisać program, który da szansę wyboru wariantu (zwykły czy odwrotny) i dla podanych danych zrealizuje obliczenia.
+										  	
+
+Zadanie 3
+Zdefiniuj klasę, który w charakterze danych zawiera dwie liczby naturalne. Klasa powinna umożliwić (np. na zasadzie wyboru z menu) potęgowanie (pierwsza liczba do potęgi, której wykładnikiem jest druga liczba), albo obliczenie największego wspólnego dzielnika z obu liczb naturalnych. Szczegóły związane z zaprojektowaniem tej klasy pozostawia się programiście.
+Uwaga ! W przypadku potęgowania nie wolno używać „gotowych” funkcji, ale należy je samemu zorganizować przy pomocy własnej pętli.
+Następnie napisz program, który inicjując klasę umożliwi użytkownikowi wykorzystanie jednej z  możliwości jaką daje klasa wg jego uznania.
+											
+
+Zadanie 4
+Zdefiniuj klasę , zawierającą tablicę 10-elementową , która przy inicjowaniu będzie wypełniana losowymi liczbami z zakresu 1-50 oraz też inicjowaną (ale niekoniecznie losowo) liczbę p. Przyjmijmy, że p nie przekracza wartości 8. Klasa powinna też zawierać narzędzie do wykonania (zależnie od wyboru wariantu, który też jest inicjowanym elementem danych) albo przesunięcie elementów tablicy o p miejsc w prawo albo w lewo o p miejsc. W efekcie tej operacji na skutek przesunięcia ostatnie p elementów, albo pierwsze p elementów  tablicy z niej „wypada”, a na powstałe miejsca   należy wstawić nowo wylosowane elementy tym razem z zakresu 51-100. 
+Następnie napisz program, który wykorzysta  klasę  dwukrotnie inicjując stosowny obiekt: raz do przesunięcia pewnej zainicjowanej tablicy przy określonym p w lewo, a raz w prawo.
+
+											
